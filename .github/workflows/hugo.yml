@@ -23,6 +23,7 @@ jobs:
       - name: Build Site
         run: |
           cp -R exampleSite/* .
+          ln -s $(pwd) ../WebStack-Hugo
           hugo --themesDir ../ --baseURL https://sixingwang2025.github.io/Tangent-nav/
 
       - name: Deploy Pages
