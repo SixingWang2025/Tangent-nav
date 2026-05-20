@@ -2,15 +2,15 @@
   icon: fa fa-home
   link: "./"
 
-- item: 作者
-  icon: fa fa-book
-  link: https://weiyan.cc/
+- item: 作者:Tangent
+  icon: fa-solid fa-user-secret
+  link: "https://sixingwang2025.github.io/page.html"
 
-- item: 关于
+- item: 关于模板
   icon: fa fa-cog
-  link: ""
+  link: "https://github.com/shenweiyan/WebStack-Hugo"
   list:
     - name: 教程
       url: https://github.com/shenweiyan/Knowledge-Garden/discussions/10
-    - name: 源码
-      url: https://github.com/shenweiyan/WebStack-Hugo
+    - name: 作者
+      url: https://weiyan.cc/
