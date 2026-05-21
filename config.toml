@@ -1,4 +1,4 @@
-baseURL               = "https://sixingwang2025.github.io/Tangent-nav/"
+baseURL               = "https://sixingwang2025.github.io/nav/"
 languageCode          = "zh-CN"
 title                 = "Tangent导航|导航"
 theme                 = "WebStack-Hugo"
