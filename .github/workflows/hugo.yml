@@ -11,20 +11,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-         submodules: true
-         fetch-depth: 0
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.122.0'
-          extended: false
+          hugo-version: '0.123.7'
+          extended: true
 
       - name: Build Site
-        run: |
-          cp -R exampleSite/* .
-          ln -s $(pwd) ../WebStack-Hugo
-          hugo --themesDir ../ --baseURL https://sixingwang2025.github.io/Tangent-nav/
+        run: hugo
 
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3
