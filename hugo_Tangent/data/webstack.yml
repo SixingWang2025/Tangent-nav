@@ -1,0 +1,232 @@
+---
+
+- taxonomy: 常用推荐
+  icon: far fa-star
+  links: 
+    - title: DeepSeek
+      url: https://chat.deepseek.com/
+      description: DeepSeek - 探索未至之境
+      logo: 
+    - title: Kimi
+      url: https://www.kimi.com/
+      description: Kimi AI
+      logo: Tangent.png
+    - title: 物理学计算器
+      url: https://wwul.lanzouw.com/iOlgJ2okwdre
+      description: 个人开发作品,密码i4zg
+      logo: Tangent.png
+    - title: 记忆翻牌游戏
+      url: https://sixingwang2025.github.io/CardGame
+      description: 放松一下,找到所有匹配的卡片对！
+      logo: 翻牌游戏.png
+    - title: 三国杀制牌器
+      url: https://sixingwang2025.github.io/MakeCards/diy.html
+      description: 制作你自己的卡牌~
+      logo: 卡牌制作.png
+    - title: GitHub
+      logo: github.png
+      url: https://github.com/
+      description: GitHub 全球最大的开源社区。
+    - title: CSDN
+      logo: csdn.png
+      url: https://www.csdn.net/
+      description: CSDN 中国最大开发者社区。
+    - title: 开源中国
+      logo: 开源中国.jpg
+      url: https://www.oschina.net/
+      description: 开源中国 中文开源技术交流社区。
+    - title: 吾爱破解
+      logo: 52.png
+      url: https://www.52pojie.cn/
+      description: 吾爱破解论坛
+    - title: V2EX
+      logo: v2ex.jpg
+      url: https://www.v2ex.com/
+      description: V2EX 创意工作者的社区。
+    - title: photoshop
+      url: https://www.adobe.com/cn/products/photoshop.html
+      logo: photoshop.png
+      logo: photoshop.png
+      description: Photoshop官方网站
+    - title: 关注我们
+      logo: 关注.jpg
+      url: https://sixingwang2025.github.io/page.html
+      description: 邮箱:PaleTangent@163.com
+
+
+- taxonomy: 科研办公
+  icon: fa fa-book fa-lg
+  list:
+    - term: 编程语言
+      links:
+        - title: VS Code
+          logo: VS Code.png
+          url: https://code.visualstudio.com/
+          description: VS Code是由微软开发的一款跨平台、免费且开源的现代轻量级代码编辑器，支持几乎主流开发语言。
+        - title: JetBrains
+          logo: JetBrains.png
+          url: https://www.jetbrains.com/
+          description: JetBrains为各大语言提供了定制IDE(集成式开发环境),JetBrains IDE旨在为您提供量身定制的针对特定语言的开发者体验。
+        - title: MinGW(C/C++)
+          logo: MinGW.png
+          url: https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/
+          description: MinGW是一个在 Windows平台上使用 GCC工具链的开发工具集合，适用于C/C++程序的编译。
+        - title: Python
+          logo: Python.png
+          url: https://www.python.org/
+          description: Python官方网站
+        - title: Anaconda
+          logo: Anaconda.png
+          url: https://www.anaconda.com/
+          description: Anaconda包含了conda、Python在内的超过180个科学包及其依赖项，助你高性能使用Python和R语言
+        - title: JDK(Java)
+          logo: Java.png
+          url: https://www.oracle.com/java/technologies/downloads/
+          description: JDK（java development kit）Java语言的软件开发工具包，它包含了Java的运行环境，Java工具和Java基础的类库。
+        - title: R Project
+          logo: r-project.jpg
+          url: https://www.r-project.org/
+          description: R语言官方网站
+    - term: 云服务器
+      links:
+        - title: 阿里云
+          logo: 阿里云.jpg
+          url: https://www.aliyun.com/
+          description: 上云就上阿里云。
+        - title: 腾讯云
+          logo: 腾讯云.webp
+          url: https://cloud.tencent.com/
+          description: 产业智变，云启未来。
+        - title: 华为云
+          logo: 华为云.png
+          url: https://www.huaweicloud.com/
+          description: 提供云计算服务+智能，见未来-华为云。
+        - title: 云筏科技
+          logo: 云筏.png
+          url: https://www.cloudraft.cn/
+          description: 你的生信科研好选择。
+    - term: 生物信息
+      links:
+        - title: NCBI
+          logo: ncbi.jpg
+          url: https://www.ncbi.nlm.nih.gov/
+          description: National Center for Biotechnology Information.
+        - title: Bioconda
+          logo: Anaconda.png
+          url: https://anaconda.org/bioconda/
+          description: "Bioconda :: Anaconda.org."
+        - title: CPAN
+          logo: cpan.jpg
+          url: https://metacpan.org/
+          description: Search the CPAN.
+        - title: Galaxy Project
+          logo: galaxy_project.png
+          url: https://galaxyproject.org/
+          description: Galaxy Community Hub.
+        - title: R Project
+          logo: r-project.jpg
+          url: https://www.r-project.org/
+          description: https://www.r-project.org
+        - title: Bioconductor
+          logo: bioconductor.jpg
+          url: http://www.bioconductor.org/
+          description: http://www.bioconductor.org
+    - term: 办公学习
+      links:
+        - title: 有道词典
+          logo: 有道词典.png
+          url: https://www.youdao.com/
+          description: 免费，即时的多语种在线翻译。
+        - title: 有道翻译
+          logo: 有道词典.png
+          url: http://fanyi.youdao.com/
+          description: 有道翻译。
+        - title: 谷歌翻译
+          logo: 谷歌翻译.jpg
+          url: https://translate.google.cn/
+          description: 谷歌翻译。
+        - title: ProcessOn
+          logo: ProcessOn.png
+          url: https://www.processon.com/
+          description: 免费在线作图、实时协作。
+        
+
+- taxonomy: 休闲娱乐
+  icon: fas fa-film fa-lg
+  list:
+    - term: 影音视频
+      links:
+        - title: 爱奇艺
+          logo: 爱奇艺.png
+          url: https://www.iqiyi.com/
+          description: 爱奇艺在线视频。
+        - title: 腾讯视频
+          logo: 腾讯视频.png
+          url: http://v.qq.com/
+          description: 腾讯视频，海量视频在线观看。
+        - title: 优酷
+          logo: 优酷.png
+          url: http://www.youku.com/
+          description: 优酷 - 这个世界很酷。
+        - title: 哔哩哔哩
+          logo: 哔哩哔哩.png
+          url: https://www.bilibili.com/
+          description: Bilibili 视频弹幕网站。
+        - title: QQ 音乐
+          logo: QQ音乐.jpg
+          url: https://y.qq.com/
+          description: QQ 音乐，在线听歌。
+        - title: 网易云音乐
+          logo: 网易云音乐.jpg
+          url: https://music.163.com/
+          description: 163 网易云音乐。
+   
+      
+- taxonomy: 素材资源
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: 网盘资源
+      links:
+        - title: 百度网盘
+          logo: 百度网盘.jpg
+          url: http://pan.baidu.com/
+          description: https://pan.baidu.com/.
+        - title: 阿里云盘
+          logo: 阿里云盘.png
+          url: https://www.aliyundrive.com/
+          description: 阿里云盘，你的数字世界。
+        - title: 天翼云盘
+          logo: 天翼云盘.jpg
+          url: https://cloud.189.cn/
+          description: 家庭云|网盘|文件备份|资源分享。
+        - title: 坚果云
+          logo: 坚果云.png
+          usrl: https://www.jianguoyun.com/
+          description: 坚果云官网。
+
+
+- taxonomy: 资讯学习
+  icon: fas fa-pencil-alt fa-lg
+  list: 
+    - term: 资讯书籍
+      links:
+        - title: 微信读书
+          url: https://weread.qq.com/
+          logo: 微信读书.jpg
+          description: 微信读书电脑版。
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。
+    - term: 博客论坛
+      links:
+        - title: Inoreader
+          url: https://www.inoreader.com/
+          logo: inoreader.jpg
+          description: 重新掌控你的新闻订阅源。
+        - title: Hacker News
+          url: https://news.ycombinator.com/
+          logo: hacker-news.jpg
+          description: 一家关于计算机黑客和创业公司的社会化新闻网站。
+
+          
