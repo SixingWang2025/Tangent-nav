@@ -1,90 +1,60 @@
-> [!NOTE]
-> **2025年05月17日：更多新功能，请参考：<https://github.com/PageXHub> 项目！**
+# Tangent 导航
 
+基于 [Hugo](https://gohugo.io/) 的静态响应式网址导航站，使用 [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) 主题构建。
 
-## 一个基于 Hugo 的静态响应式网址导航主题 
+**线上地址**: <https://sixingwang2025.github.io/Tangent-nav/>
 
-本项目是基于**纯静态**的网址导航网站 [webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 制作的 [Hugo](https://gohugo.io/) 主题，是一个基于 Hugo 的静态响应式网址导航主题。<br/>
+## 本地开发
 
-### 主题开源地址
+```bash
+# 克隆仓库（含主题子模块）
+git clone --recurse-submodules git@github.com:SixingWang2025/Tangent-nav.git
+cd Tangent-nav
 
-[**GitHub**](https://github.com/shenweiyan/WebStack-Hugo) | [**Gitee**](https://gitee.com/shenweiyan/WebStack-Hugo) | [**GitCode**](https://gitcode.com/shenweiyan/WebStack-Hugo)
-
-### 主题演示地址
-
-<https://webstack-demo.weiyan.cc/>
-
-### 特色功能
-
-这是 Hugo 版 WebStack 主题。可以借助下面的平台直接托管部署，无需服务器。
-- [Webify](https://webify.cloudbase.net/) | [Netlify](https://app.netlify.com/) | [Cloudflare Pages](https://pages.cloudflare.com) | [Vercel](https://vercel.com) | [Github Pages](https://pages.github.com/)
-
-总体说一下特点：
-
-- 采用了一直以来最喜欢的 Hugo 部署方式，方便高效。
-- 主要的配置信息都集成到了 `config.toml`，一键完成各种自定义的配置。
-- 导航的各个信息都集成在 `data/webstack.yml` 文件中，方便后续增删改动。
+# 启动开发服务器
+hugo server
 ```
-- taxonomy: 科研办公
+
+## 项目结构
+
+```
+├── config.toml          # 站点配置
+├── content/             # 页面内容
+├── data/
+│   └── webstack.yml     # 导航数据（分类、链接、图标）
+├── layouts/             # 自定义布局覆盖
+├── static/
+│   └── assets/
+│       ├── images/
+│       │   └── logos/   # 网站图标
+│       └── fontawesome-6.4.0/
+└── themes/
+    └── WebStack-Hugo    # 主题（Git 子模块）
+```
+
+## 修改导航
+
+编辑 `data/webstack.yml`，格式如下：
+
+```yaml
+- taxonomy: 分类名称
   icon: fas fa-flask fa-lg
   list:
-    - term: 生物信息
+    - term: 子分类
       links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-        - title: Bioconda
-          logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
-          description: "Bioconda :: Anaconda.org."
-    - term: 云服务器
-      links:
-        - title: 阿里云
-          logo: 阿里云.jpg
-          url: https://www.aliyun.com/
-          description: 上云就上阿里云。
-        - title: 腾讯云
-          logo: 腾讯云.jpg
-          url: https://cloud.tencent.com/
-          description: 产业智变，云启未来。
+        - title: 网站名称
+          logo: logo.png
+          url: https://example.com
+          description: 网站描述。
 ```
-- 做了手机电脑自适应以及夜间模式。
-- 增加了搜索功能，以及下拉的热词选项（基于百度 API）。
-- 增加了一言、和风天气的 API。
 
-### 使用说明
+图标文件放入 `static/assets/images/logos/`。
 
-这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
+## 部署
 
-WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎在本项目留下你的 [分享](https://github.com/shenweiyan/WebStack-Hugo/issues/10)！
+推送 `main` 分支后，GitHub Actions 自动构建并部署到 GitHub Pages。
 
-
-### 安装说明
-
-关于 Windows/Linux 下详细的安装与使用说明，请参考文档《WebStack-Hugo | 一个静态响应式导航主题》。
-
-- [链接1](https://weiyan.cc/tech/discussions-10/) | [链接2](https://github.com/shenweiyan/Digital-Garden/discussions/10)
-
-### 感谢
-
-本主题的部分代码参考了以下几个开源项目，特此感谢。
+## 致谢
 
 - [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io)
-- [liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
-- [iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
-
-感谢以下所有朋友对本主题所做出的贡献。  
-- [@yuanj82](https://github.com/yuanj82)        
-- [@yanbeiyinhanghang](https://github.com/yinhanghang)     
-- [@jetsung](https://github.com/jetsung)
-
-### 赞赏
-
-如果你觉得本项目对你有所帮助，欢迎请作者喝杯热咖啡 >.<
-
-![donate-wecaht-aliapy](https://kg.weiyan.cc/0000/img/donate.webp)
-
-### Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=shenweiyan/WebStack-Hugo&type=Date)](https://star-history.com/#shenweiyan/WebStack-Hugo&Date)
+- [shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)（Hugo 主题）
