@@ -30,7 +30,7 @@ hasCJKLanguage        = true
 [params.qweather]
     key = "085791e805a24491b43b06cf58ab31e7"
 
-[params.images]
+[params.assets]
     favicon           = "assets/images/favicon_head.png"
     searchImageL      = "assets/images/bg-bright.png"		# 搜索部分浅色背景图
     searchImageD      = "assets/images/bg-bright.png"		# 搜索部分深色背景图
