@@ -1,6 +1,6 @@
 baseURL               = "https://sixingwang2025.github.io/nav/"
 languageCode          = "zh-CN"
-title                 = "Tangent导航|导航"
+title                 = "Tangent|导航"
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
