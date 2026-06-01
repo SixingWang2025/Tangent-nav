@@ -31,7 +31,7 @@ hasCJKLanguage        = true
     key = "085791e805a24491b43b06cf58ab31e7"
 
 [params.assets]
-    favicon           = "assets/images/favicon_head.png"
+    favicon           = "assets/images/favicon_head.jpg"
     searchImageL      = "assets/images/bg-bright.png"		# 搜索部分浅色背景图
     searchImageD      = "assets/images/bg-bright.png"		# 搜索部分深色背景图
     logoExpandLight   = "assets/images/Tangent-expand-light.png"
