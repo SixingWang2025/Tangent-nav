@@ -4,7 +4,12 @@
 
 - item: 作者:Tangent
   icon: fa-solid fa-user-secret
-  link: "https://sixingwang2025.github.io/page/index.html"
+  link: "https://sixingwang2025.github.io/page/"
+  list:
+    - name: 个人主页
+      url: https://sixingwang2025.github.io/page/
+    - name: 博客
+      url: https://sixingwang2025.github.io/blog/
 
 - item: 关于模板
   icon: fa fa-cog
