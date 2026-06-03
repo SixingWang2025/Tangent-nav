@@ -53,6 +53,50 @@
       description: 邮箱:PaleTangent@163.com
 
 
+- taxonomy: 人工智能
+  icon: fas fa-robot
+  links:
+    - title: ChatGPT
+      url: https://chat.openai.com/
+      logo: chatgpt.png
+      description: OpenAI 开发的大语言模型聊天机器人，引领AI对话新纪元
+    - title: Claude
+      url: https://claude.ai/
+      logo: claude.png
+      description: Anthropic 开发的AI助手，擅长长文本处理与深度推理
+    - title: Gemini
+      url: https://gemini.google.com/
+      logo: gemini.png
+      description: Google 推出的多模态AI模型，整合搜索与推理能力
+    - title: 通义千问
+      url: https://tongyi.aliyun.com/
+      logo: 通义千问.png
+      description: 阿里云推出的超大规模语言模型，支持多轮对话与创作
+    - title: 文心一言
+      url: https://yiyan.baidu.com/
+      logo: 文心一言.png
+      description: 百度发布的知识增强大语言模型，深度理解中文语境
+    - title: 豆包
+      url: https://www.doubao.com/
+      logo: 豆包.png
+      description: 字节跳动推出的AI对话助手，免费易用功能丰富
+    - title: Perplexity
+      url: https://www.perplexity.ai/
+      logo: perplexity.png
+      description: AI驱动的搜索引擎，实时检索并引用来源回答问题
+    - title: Microsoft Copilot
+      url: https://copilot.microsoft.com/
+      logo: copilot.png
+      description: 微软推出的AI助手，深度整合Office与Windows生态
+    - title: Midjourney
+      url: https://www.midjourney.com/
+      logo: midjourney.png
+      description: AI图像生成工具，以精美的艺术风格和创意出图闻名
+    - title: Cursor
+      url: https://cursor.sh/
+      logo: cursor.png
+      description: 基于AI的智能代码编辑器，提升编程效率与体验
+
 - taxonomy: 科研办公
   icon: fa fa-book fa-lg
   list:
