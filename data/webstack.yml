@@ -48,18 +48,14 @@
 - taxonomy: 人工智能
   icon: fas fa-robot
   links:
-    - title: DeepSeek
-      url: https://chat.deepseek.com/
-      logo: deepseek.png
-      description: 深度求索推出的大语言模型，免费使用，推理能力出色
-    - title: Kimi
-      url: https://www.kimi.com/
-      logo: kimi.png
-      description: 月之暗面推出的AI助手，超长上下文处理，支持联网搜索
     - title: ChatGPT
       url: https://chat.openai.com/
       logo: chatgpt.png
       description: OpenAI 开发的大语言模型聊天机器人，引领AI对话新纪元
+    - title: DeepSeek
+      url: https://chat.deepseek.com/
+      logo: deepseek.png
+      description: 深度求索推出的大语言模型，免费使用，推理能力出色
     - title: Claude
       url: https://claude.ai/
       logo: claude.png
@@ -68,26 +64,30 @@
       url: https://gemini.google.com/
       logo: gemini.svg
       description: Google 推出的多模态AI模型，整合搜索与推理能力
+    - title: Kimi
+      url: https://www.kimi.com/
+      logo: kimi.png
+      description: 月之暗面推出的AI助手，超长上下文处理，支持联网搜索
     - title: 通义千问
       url: https://tongyi.aliyun.com/
-      logo: 通义千问.png
+      logo: 通义千问.svg
       description: 阿里云推出的超大规模语言模型，支持多轮对话与创作
-    - title: 文心一言
-      url: https://yiyan.baidu.com/
-      logo: 文心一言.png
-      description: 百度发布的知识增强大语言模型，深度理解中文语境
     - title: 豆包
       url: https://www.doubao.com/
       logo: 豆包.png
       description: 字节跳动推出的AI对话助手，免费易用功能丰富
-    - title: Perplexity
-      url: https://www.perplexity.ai/
-      logo: perplexity.png
-      description: AI驱动的搜索引擎，实时检索并引用来源回答问题
+    - title: 文心一言
+      url: https://yiyan.baidu.com/
+      logo: 文心一言.png
+      description: 百度发布的知识增强大语言模型，深度理解中文语境
     - title: Microsoft Copilot
       url: https://copilot.microsoft.com/
       logo: copilot.png
       description: 微软推出的AI助手，深度整合Office与Windows生态
+    - title: Perplexity
+      url: https://www.perplexity.ai/
+      logo: perplexity.png
+      description: AI驱动的搜索引擎，实时检索并引用来源回答问题
     - title: Midjourney
       url: https://www.midjourney.com/
       logo: midjourney.png
