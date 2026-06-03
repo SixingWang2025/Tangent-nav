@@ -2,15 +2,7 @@
 
 - taxonomy: 常用推荐
   icon: far fa-star
-  links: 
-    - title: DeepSeek
-      url: https://chat.deepseek.com/
-      description: DeepSeek - 探索未至之境
-      logo: 
-    - title: Kimi
-      url: https://www.kimi.com/
-      description: Kimi AI
-      logo: Tangent.png
+  links:
     - title: 物理学计算器
       url: https://wwul.lanzouw.com/iOlgJ2okwdre
       description: 个人开发作品,密码i4zg
@@ -56,6 +48,14 @@
 - taxonomy: 人工智能
   icon: fas fa-robot
   links:
+    - title: DeepSeek
+      url: https://chat.deepseek.com/
+      logo: deepseek.png
+      description: 深度求索推出的大语言模型，免费使用，推理能力出色
+    - title: Kimi
+      url: https://www.kimi.com/
+      logo: kimi.png
+      description: 月之暗面推出的AI助手，超长上下文处理，支持联网搜索
     - title: ChatGPT
       url: https://chat.openai.com/
       logo: chatgpt.png
@@ -66,7 +66,7 @@
       description: Anthropic 开发的AI助手，擅长长文本处理与深度推理
     - title: Gemini
       url: https://gemini.google.com/
-      logo: gemini.png
+      logo: gemini.svg
       description: Google 推出的多模态AI模型，整合搜索与推理能力
     - title: 通义千问
       url: https://tongyi.aliyun.com/
