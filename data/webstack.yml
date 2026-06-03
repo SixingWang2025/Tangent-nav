@@ -3,544 +3,979 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links:
-    - title: 物理学计算器
-      url: https://wwul.lanzouw.com/iOlgJ2okwdre
-      description: 个人开发作品，密码 i4zg
-      logo: Tangent.png
-    - title: 记忆翻牌游戏
-      url: https://sixingwang2025.github.io/cardgame
-      description: 放松一下，找到所有匹配的卡片对！
-      logo: 翻牌游戏.png
-    - title: 三国杀制牌器
-      url: https://sixingwang2025.github.io/MakeCards/diy.html
-      description: 制作你自己的卡牌~
-      logo: 卡牌制作.png
     - title: 关注我们
-      logo: 关注.jpg
       url: https://sixingwang2025.github.io/page.html
+      logo: 关注.jpg
       description: 邮箱：PaleTangent@163.com
 
-# ====== 2. 人工智能 ======
+# ====== 2. 搜索引擎 ======
+- taxonomy: 搜索引擎
+  icon: fas fa-search
+  links:
+    - title: Google
+      url: https://www.google.com/
+      logo: google.png
+      description: 全球最大搜索引擎，搜索质量与速度业界标杆
+    - title: 百度
+      url: https://www.baidu.com/
+      logo: baidu.png
+      description: 中文搜索市场份额第一，更适合中文内容检索
+    - title: Bing
+      url: https://www.bing.com/
+      logo: bing.png
+      description: 微软搜索引擎，集成AI Copilot，英文搜索出色
+    - title: 搜狗
+      url: https://www.sogou.com/
+      logo: sogou.png
+      description: 腾讯旗下搜索引擎，微信与知乎内容搜索特色
+    - title: DuckDuckGo
+      url: https://duckduckgo.com/
+      logo: duckduckgo.png
+      description: 隐私优先的搜索引擎，不追踪用户搜索行为
+    - title: Ecosia
+      url: https://www.ecosia.org/
+      logo: ecosia.png
+      description: 绿色搜索引擎，广告收入用于植树造林
+    - title: Startpage
+      url: https://www.startpage.com/
+      logo: startpage.png
+      description: 隐私搜索引擎，底层调用Google结果但不追踪用户
+    - title: Yandex
+      url: https://yandex.com/
+      logo: yandex.png
+      description: 俄罗斯最大搜索引擎，俄语内容搜索首选
+    - title: SearXNG
+      url: https://searx.space/
+      logo: searxng.png
+      description: 开源去中心化元搜索引擎，可自托管部署
+    - title: 必应 (中国版)
+      url: https://cn.bing.com/
+      logo: bingcn.png
+      description: 必应中国版，国内可直接访问的微软搜索服务
+
+# ====== 3. 人工智能 ======
 - taxonomy: 人工智能
   icon: fas fa-robot
-  links:
-    - title: ChatGPT
-      url: https://chat.openai.com/
-      logo: chatgpt.png
-      description: OpenAI 大语言模型，全球最流行的AI对话工具，引领AI新纪元
-    - title: DeepSeek
-      url: https://chat.deepseek.com/
-      logo: deepseek.png
-      description: 深度求索大语言模型，免费使用，推理能力出色，国产之光
-    - title: Claude
-      url: https://claude.ai/
-      logo: claude.png
-      description: Anthropic 开发，擅长长文本处理、深度推理与代码生成
-    - title: Gemini
-      url: https://gemini.google.com/
-      logo: gemini.svg
-      description: Google 多模态AI模型，整合搜索、推理与图像识别能力
-    - title: Kimi
-      url: https://www.kimi.com/
-      logo: kimi.png
-      description: 月之暗面推出，超长上下文处理，支持联网搜索与文件分析
-    - title: 通义千问
-      url: https://tongyi.aliyun.com/
-      logo: 通义千问.svg
-      description: 阿里云大语言模型，支持多轮对话、文档处理与代码编写
-    - title: 豆包
-      url: https://www.doubao.com/
-      logo: 豆包.png
-      description: 字节跳动AI对话助手，免费易用，功能丰富
-    - title: 文心一言
-      url: https://yiyan.baidu.com/
-      logo: 文心一言.png
-      description: 百度知识增强大语言模型，深度理解中文语境与文化
-    - title: 智谱清言
-      url: https://chatglm.cn/
-      logo: chatglm.png
-      description: 智谱AI推出，基于GLM大模型，支持多模态与代码能力
-    - title: 讯飞星火
-      url: https://xinghuo.xfyun.cn/
-      logo: xinghuo.png
-      description: 科大讯飞推出，语音识别与认知大模型结合的AI助手
-    - title: 秘塔AI搜索
-      url: https://metaso.cn/
-      logo: metaso.png
-      description: AI搜索引擎，实时检索并引用来源，学术搜索能力突出
-    - title: Microsoft Copilot
-      url: https://copilot.microsoft.com/
-      logo: copilot.png
-      description: 微软AI助手，深度整合Office与Windows生态
-    - title: Perplexity
-      url: https://www.perplexity.ai/
-      logo: perplexity.png
-      description: AI驱动搜索引擎，精准回答并标注信息来源
-    - title: Midjourney
-      url: https://www.midjourney.com/
-      logo: midjourney.png
-      description: AI图像生成标杆，艺术风格与创意出图质量一流
-    - title: 即梦
-      url: https://jimeng.jianying.com/
-      logo: jimeng.png
-      description: 字节跳动AI创作平台，支持AI图片与视频生成
-    - title: Suno
-      url: https://suno.com/
-      logo: suno.png
-      description: AI音乐生成工具，输入文字即可创作完整的歌曲
-    - title: Cursor
-      url: https://cursor.sh/
-      logo: cursor.png
-      description: AI驱动的智能代码编辑器，内置ChatGPT级编程助手
+  list:
+    - term: 对话助手
+      links:
+        - title: ChatGPT
+          url: https://chat.openai.com/
+          logo: chatgpt.png
+          description: OpenAI 大语言模型，全球最流行的AI对话工具，引领AI新纪元
+        - title: Claude
+          url: https://claude.ai/
+          logo: claude.png
+          description: Anthropic 开发，擅长长文本处理、深度推理与代码生成
+        - title: DeepSeek
+          url: https://chat.deepseek.com/
+          logo: deepseek.png
+          description: 深度求索大语言模型，免费使用，推理能力出色，国产之光
+        - title: Gemini
+          url: https://gemini.google.com/
+          logo: gemini.png
+          description: Google 多模态AI模型，整合搜索、推理与图像识别能力
+        - title: Kimi
+          url: https://www.kimi.com/
+          logo: kimi.png
+          description: 月之暗面推出，超长上下文处理，支持联网搜索与文件分析
+        - title: Grok
+          url: https://grok.com/
+          logo: grok.png
+          description: xAI 推出，马斯克旗下AI助手，实时X平台数据接入
+        - title: 通义千问
+          url: https://tongyi.aliyun.com/
+          logo: 通义千问.svg
+          description: 阿里云大语言模型，支持多轮对话、文档处理与代码编写
+        - title: 豆包
+          url: https://www.doubao.com/
+          logo: 豆包.png
+          description: 字节跳动AI对话助手，免费易用，功能丰富
+        - title: 文心一言
+          url: https://yiyan.baidu.com/
+          logo: 文心一言.png
+          description: 百度知识增强大语言模型，深度理解中文语境与文化
+        - title: 智谱清言
+          url: https://chatglm.cn/
+          logo: chatglm.png
+          description: 智谱AI推出，基于GLM大模型，支持多模态与代码能力
+        - title: 讯飞星火
+          url: https://xinghuo.xfyun.cn/
+          logo: xinghuo.png
+          description: 科大讯飞推出，语音识别与认知大模型结合的AI助手
+        - title: 腾讯混元
+          url: https://hunyuan.tencent.com/
+          logo: hunyuan.png
+          description: 腾讯大语言模型，深度整合微信与腾讯生态
+        - title: 百川智能
+          url: https://www.baichuan-ai.com/
+          logo: baichuan.png
+          description: 百川智能推出，开源与商用并重的国产大模型
+        - title: 海螺AI
+          url: https://hailuoai.com/
+          logo: hailuo.png
+          description: MiniMax推出，支持语音对话与情感识别的AI助手
+        - title: Poe
+          url: https://poe.com/
+          logo: poe.png
+          description: Quora推出的多模型聚合平台，同时使用ChatGPT/Claude等
+        - title: Microsoft Copilot
+          url: https://copilot.microsoft.com/
+          logo: copilot.png
+          description: 微软AI助手，深度整合Office与Windows生态
+        - title: 天工AI
+          url: https://www.tiangong.cn/
+          logo: tiangong.png
+          description: 昆仑万维推出，支持多模态对话与AI搜索
+    - term: AI搜索
+      links:
+        - title: Perplexity
+          url: https://www.perplexity.ai/
+          logo: perplexity.png
+          description: AI驱动搜索引擎，精准回答并标注信息来源
+        - title: 秘塔AI搜索
+          url: https://metaso.cn/
+          logo: metaso.png
+          description: AI搜索引擎，实时检索并引用来源，学术搜索能力突出
+        - title: Monica
+          url: https://monica.im/
+          logo: monica.png
+          description: AI全能助手，搜索阅读写作翻译一站集成
+    - term: AI图像视频
+      links:
+        - title: Midjourney
+          url: https://www.midjourney.com/
+          logo: midjourney.png
+          description: AI图像生成标杆，艺术风格与创意出图质量一流
+        - title: Stable Diffusion
+          url: https://stablediffusionweb.com/
+          logo: stablediffusion.png
+          description: 开源AI图像生成模型，可控性强，社区生态丰富
+        - title: DALL·E
+          url: https://openai.com/dall-e-3
+          logo: dalle.svg
+          description: OpenAI图像生成模型，文字理解准确，语义跟随度高
+        - title: 即梦
+          url: https://jimeng.jianying.com/
+          logo: jimeng.png
+          description: 字节跳动AI创作平台，支持AI图片与视频生成
+        - title: 可灵AI
+          url: https://klingai.com/
+          logo: kling.png
+          description: 快手推出，AI视频生成工具，文生视频与图生视频
+        - title: Runway
+          url: https://runwayml.com/
+          logo: runway.png
+          description: AI视频编辑先锋，Gen系列视频生成模型行业领先
+        - title: Replicate
+          url: https://replicate.com/
+          logo: replicate.png
+          description: 机器学习模型托管与运行平台，一键调用开源AI模型
+    - term: AI编程音乐
+      links:
+        - title: Cursor
+          url: https://cursor.sh/
+          logo: cursor.png
+          description: AI驱动的智能代码编辑器，内置顶级编程助手
+        - title: GitHub Copilot
+          url: https://github.com/features/copilot
+          logo: copilot.png
+          description: GitHub官方AI编程助手，深度集成VS Code与JetBrains
+        - title: Claude Code
+          url: https://docs.anthropic.com/en/docs/claude-code
+          logo: claude.png
+          description: Anthropic CLI编程助手，终端内直接对话与代码生成
+        - title: Hugging Face
+          url: https://huggingface.co/
+          logo: huggingface.png
+          description: AI模型开源社区与平台，模型托管训练部署一站式
+        - title: v0 by Vercel
+          url: https://v0.dev/
+          logo: v0.png
+          description: Vercel推出，AI驱动前端UI生成，文本描述即出组件
+        - title: Suno
+          url: https://suno.com/
+          logo: suno.png
+          description: AI音乐生成工具，输入文字即可创作完整的歌曲
 
-# ====== 3. 编程开发 ======
+# ====== 4. 编程开发 ======
 - taxonomy: 编程开发
   icon: fas fa-code
   list:
     - term: 编程语言
       links:
         - title: Python
-          logo: Python.png
           url: https://www.python.org/
+          logo: Python.png
           description: 简洁优雅的编程语言，数据科学与AI领域的首选
         - title: JDK (Java)
-          logo: Java.png
           url: https://www.oracle.com/java/technologies/downloads/
+          logo: Java.png
           description: Java开发工具包，企业级应用的核心基础
         - title: Node.js
-          logo: nodejs.png
           url: https://nodejs.org/
+          logo: nodejs.png
           description: JavaScript运行时环境，构建高性能后端服务
         - title: Go
-          logo: go.png
           url: https://go.dev/
+          logo: go.png
           description: Google开发的高性能编译型语言，云原生基础设施首选
         - title: Rust
-          logo: rust.png
           url: https://www.rust-lang.org/
-          description: 内存安全、高性能的系统编程语言，连续多年最受喜爱
+          logo: rust.svg
+          description: 内存安全、高性能系统编程语言，连续多年最受喜爱
         - title: TypeScript
-          logo: typescript.png
           url: https://www.typescriptlang.org/
+          logo: typescript.png
           description: JavaScript的超集，为大型项目提供类型安全
+        - title: Kotlin
+          url: https://kotlinlang.org/
+          logo: kotlin.png
+          description: JetBrains开发，Android官方首选语言，现代简洁
+        - title: Swift
+          url: https://www.swift.org/
+          logo: swift.png
+          description: Apple推出，iOS/macOS开发首选，安全且高性能
+        - title: C#
+          url: https://dotnet.microsoft.com/en-us/languages/csharp
+          logo: csharp.png
+          description: 微软.NET生态核心语言，游戏开发与企业应用
+        - title: Julia
+          url: https://julialang.org/
+          logo: julia.png
+          description: 高性能科学计算语言，速度接近C，语法简洁如Python
+        - title: PHP
+          url: https://www.php.net/
+          logo: php.png
+          description: Web开发经典语言，WordPress等全球CMS的基础
         - title: R Project
-          logo: r-project.jpg
           url: https://www.r-project.org/
+          logo: r-project.jpg
           description: 统计分析领域最流行的开源编程语言
     - term: 开发工具
       links:
         - title: VS Code
-          logo: VS Code.png
           url: https://code.visualstudio.com/
+          logo: VS Code.png
           description: 微软跨平台免费代码编辑器，插件生态强大
         - title: JetBrains
-          logo: JetBrains.png
           url: https://www.jetbrains.com/
+          logo: JetBrains.png
           description: 为各语言量身定制的IDE系列，智能代码补全业界领先
         - title: Git
-          logo: git.png
           url: https://git-scm.com/
+          logo: git.png
           description: 分布式版本控制系统，现代软件开发的基石
         - title: Docker
-          logo: docker.png
           url: https://www.docker.com/
+          logo: docker.png
           description: 容器化平台，一键打包部署应用与环境
+        - title: Postman
+          url: https://www.postman.com/
+          logo: postman.svg
+          description: API开发与测试工具，接口调试的事实标准
         - title: Anaconda
-          logo: Anaconda.png
           url: https://www.anaconda.com/
+          logo: Anaconda.png
           description: Python/R数据科学发行版，包含180+科学包
+        - title: Homebrew
+          url: https://brew.sh/
+          logo: homebrew.png
+          description: macOS/Linux包管理器，命令行一键安装开发工具
         - title: MinGW (C/C++)
-          logo: MinGW.png
           url: https://sourceforge.net/projects/mingw-w64/
+          logo: MinGW.png
           description: Windows平台上的GCC工具链，C/C++开发必备
+        - title: CMake
+          url: https://cmake.org/
+          logo: cmake.png
+          description: 跨平台构建系统，C/C++项目编译配置的行业标准
+        - title: npm
+          url: https://www.npmjs.com/
+          logo: npm.png
+          description: Node.js官方包管理平台，全球最大的软件注册库
+        - title: PyPI
+          url: https://pypi.org/
+          logo: pypi.png
+          description: Python官方软件包索引，50万+第三方库资源
     - term: 部署平台
       links:
         - title: GitHub Pages
-          logo: github.png
           url: https://pages.github.com/
+          logo: github.png
           description: 免费静态网站托管，直接从GitHub仓库部署
         - title: Vercel
-          logo: vercel.png
           url: https://vercel.com/
+          logo: vercel.png
           description: 前端部署平台，支持Next.js等框架的全球CDN加速
         - title: Netlify
-          logo: netlify.png
           url: https://www.netlify.com/
+          logo: netlify.png
           description: 现代Web项目一键部署，支持Serverless函数
         - title: Cloudflare
-          logo: cloudflare.png
           url: https://www.cloudflare.com/
+          logo: cloudflare.png
           description: 全球CDN与安全服务，免费DNS管理与DDoS防护
+        - title: Supabase
+          url: https://supabase.com/
+          logo: supabase.png
+          description: 开源Firebase替代品，PostgreSQL后端即服务
+        - title: Firebase
+          url: https://firebase.google.com/
+          logo: firebase.png
+          description: Google移动与Web应用开发平台，实时数据库与认证
+        - title: Railway
+          url: https://railway.app/
+          logo: railway.png
+          description: 现代化全栈部署平台，支持任意语言一键部署
+        - title: Render
+          url: https://render.com/
+          logo: render.svg
+          description: 开发者友好的云部署平台，免费PostgreSQL托管
 
-# ====== 4. 开发者社区 ======
+# ====== 5. 开发者社区 ======
 - taxonomy: 开发者社区
   icon: fas fa-users
   links:
     - title: GitHub
-      logo: github.png
       url: https://github.com/
+      logo: github.png
       description: 全球最大的代码托管与开源协作平台
     - title: GitLab
-      logo: gitlab.png
       url: https://gitlab.com/
+      logo: gitlab.png
       description: 完整的DevOps平台，支持私有仓库与CI/CD
     - title: Gitee (码云)
-      logo: gitee.png
       url: https://gitee.com/
+      logo: gitee.png
       description: 国内最大的代码托管平台，企业级DevOps服务
     - title: Stack Overflow
-      logo: stackoverflow.png
       url: https://stackoverflow.com/
+      logo: stackoverflow.png
       description: 全球最大的编程问答社区，开发者的技术百科
     - title: 掘金
-      logo: xituqu.png
       url: https://juejin.cn/
+      logo: xituqu.png
       description: 面向中文开发者的技术社区，高质量技术文章聚集地
     - title: SegmentFault (思否)
-      logo: segmentfault.png
       url: https://segmentfault.com/
+      logo: segmentfault.png
       description: 中文技术问答与专栏平台，程序员的交流社区
     - title: CSDN
-      logo: csdn.png
       url: https://www.csdn.net/
+      logo: csdn.png
       description: 中国最大开发者社区，海量技术博客与资源
     - title: 开源中国
-      logo: 开源中国.jpg
       url: https://www.oschina.net/
+      logo: 开源中国.jpg
       description: 中文开源技术交流社区，软件资讯与开源项目
     - title: V2EX
-      logo: v2ex.jpg
       url: https://www.v2ex.com/
+      logo: v2ex.jpg
       description: 创意工作者社区，关于技术与生活的优质讨论
+    - title: 知乎
+      url: https://www.zhihu.com/
+      logo: 知乎.png
+      description: 中文互联网最大的知识问答社区，技术话题活跃
+    - title: Dev.to
+      url: https://dev.to/
+      logo: devto.png
+      description: 国际开发者写作社区，包容友善的技术交流氛围
+    - title: Product Hunt
+      url: https://www.producthunt.com/
+      logo: producthunt.png
+      description: 新产品发现平台，科技产品潮流风向标
+    - title: InfoQ
+      url: https://www.infoq.cn/
+      logo: infoq.png
+      description: 面向架构师的深度技术资讯，前沿技术趋势解读
+    - title: Reddit
+      url: https://www.reddit.com/
+      logo: reddit.png
+      description: 全球最大论坛社区，r/programming等技术板块讨论活跃
     - title: 吾爱破解
-      logo: 52.png
       url: https://www.52pojie.cn/
+      logo: 52.png
       description: 软件逆向工程与安全技术论坛
 
-# ====== 5. 云服务器 ======
+# ====== 6. 云服务器 ======
 - taxonomy: 云服务器
   icon: fas fa-cloud
   links:
     - title: 阿里云
-      logo: 阿里云.jpg
       url: https://www.aliyun.com/
+      logo: 阿里云.jpg
       description: 国内市场份额第一，产品线最全的云计算平台
     - title: 腾讯云
-      logo: 腾讯云.webp
       url: https://cloud.tencent.com/
+      logo: 腾讯云.webp
       description: 腾讯旗下云计算品牌，游戏与音视频领域优势突出
     - title: 华为云
-      logo: 华为云.png
       url: https://www.huaweicloud.com/
+      logo: 华为云.png
       description: 华为云计算平台，AI与政企服务能力强劲
     - title: AWS
-      logo: aws.png
       url: https://aws.amazon.com/
+      logo: aws.png
       description: 亚马逊云服务，全球市场份额第一的云计算平台
+    - title: Google Cloud
+      url: https://cloud.google.com/
+      logo: gcp.png
+      description: Google云计算平台，数据分析和AI/ML服务领先
+    - title: Azure
+      url: https://azure.microsoft.com/
+      logo: azure.png
+      description: 微软云计算平台，企业级混合云解决方案
+    - title: DigitalOcean
+      url: https://www.digitalocean.com/
+      logo: digitalocean.png
+      description: 开发者友好云平台，简单易用的云虚拟机服务
+    - title: Vultr
+      url: https://www.vultr.com/
+      logo: vultr.png
+      description: 全球多节点云服务器，性价比高按小时计费
+    - title: 青云
+      url: https://www.qingcloud.com/
+      logo: qingcloud.png
+      description: 国内中立云计算平台，混合云与私有云方案
     - title: 云筏科技
-      logo: 云筏.png
       url: https://www.cloudraft.cn/
+      logo: 云筏.png
       description: 面向生信科研场景的云计算服务商
 
-# ====== 6. 生物信息 ======
-- taxonomy: 生物信息
-  icon: fas fa-dna
+# ====== 7. 学术科研 ======
+- taxonomy: 学术科研
+  icon: fas fa-flask
   links:
-    - title: NCBI
-      logo: ncbi.jpg
-      url: https://www.ncbi.nlm.nih.gov/
-      description: 美国国家生物技术信息中心，核心生物数据库入口
-    - title: Bioconda
-      logo: Anaconda.png
-      url: https://anaconda.org/bioconda/
-      description: 生物信息学软件包管理渠道，覆盖7000+生信工具
-    - title: Galaxy Project
-      logo: galaxy_project.png
-      url: https://galaxyproject.org/
-      description: 开源Web生信分析平台，可视化流程构建
-    - title: Bioconductor
-      logo: bioconductor.jpg
-      url: http://www.bioconductor.org/
-      description: R语言生物信息学软件包集合，基因组分析利器
-    - title: CPAN
-      logo: cpan.jpg
-      url: https://metacpan.org/
-      description: Perl综合典藏网，大量生物信息Perl模块资源
-    - title: UniProt
-      logo: uniprot.png
-      url: https://www.uniprot.org/
-      description: 蛋白质序列与功能注释数据库，生命科学研究基础
+    - title: Google Scholar
+      url: https://scholar.google.com/
+      logo: googlescholar.png
+      description: 全球最大免费学术搜索引擎，追踪论文引用与学术动态
+    - title: PubMed
+      url: https://pubmed.ncbi.nlm.nih.gov/
+      logo: pubmed.png
+      description: 生物医学文献数据库，生命科学领域核心文献检索
+    - title: arXiv
+      url: https://arxiv.org/
+      logo: arxiv.png
+      description: 康奈尔大学预印本平台，物理/CS/数学/生信前沿论文
+    - title: Sci-Hub
+      url: https://sci-hub.se/
+      logo: scihub.svg
+      description: 科研论文免费获取平台，打破学术付费墙
+    - title: Web of Science
+      url: https://www.webofscience.com/
+      logo: wos.png
+      description: 科睿唯安引文数据库，SCI/SSCI期刊论文检索
+    - title: CNKI (知网)
+      url: https://www.cnki.net/
+      logo: cnki.png
+      description: 中国知识基础设施工程，中文期刊论文与硕博论文
+    - title: ResearchGate
+      url: https://www.researchgate.net/
+      logo: researchgate.png
+      description: 科研社交网络平台，与全球研究者交流论文成果
+    - title: Semantic Scholar
+      url: https://www.semanticscholar.org/
+      logo: semanticscholar.png
+      description: AI驱动的学术搜索，提取关键发现与引用图谱
+    - title: Connected Papers
+      url: https://www.connectedpapers.com/
+      logo: connectedpapers.png
+      description: 论文关联图谱可视化，快速找到相关研究脉络
+    - title: Zotero
+      url: https://www.zotero.org/
+      logo: zotero.png
+      description: 开源文献管理工具，自动抓取论文元数据
+    - title: EndNote
+      url: https://endnote.com/
+      logo: endnote.png
+      description: 科睿唯安文献管理软件，学术论文引用与格式化
+    - title: ORCID
+      url: https://orcid.org/
+      logo: orcid.png
+      description: 科研人员唯一身份标识，统一学术产出记录
+    - title: 万方数据
+      url: https://www.wanfangdata.com.cn/
+      logo: wanfang.png
+      description: 中文学术数据库，期刊论文、学位论文与会议论文
+    - title: 百度学术
+      url: https://xueshu.baidu.com/
+      logo: baiduxueshu.png
+      description: 百度学术搜索，中文文献快速检索与引用
+    - title: bioRxiv
+      url: https://www.biorxiv.org/
+      logo: biorxiv.png
+      description: 生物学预印本平台，第一时间获取最新研究成果
 
-# ====== 7. 设计素材 ======
+# ====== 8. 设计素材 ======
 - taxonomy: 设计素材
   icon: fas fa-palette
   list:
     - term: 设计工具
       links:
         - title: Figma
-          logo: figma.png
           url: https://www.figma.com/
+          logo: figma.png
           description: 基于Web的协作式UI/UX设计工具，行业新标准
         - title: Photoshop
-          logo: photoshop.png
           url: https://www.adobe.com/cn/products/photoshop.html
+          logo: photoshop.png
           description: Adobe经典图像处理软件，设计行业基石
-        - title: Sketch
-          logo: Sketch.png
-          url: https://www.sketch.com/
-          description: macOS平台UI设计工具，矢量编辑与原型设计
         - title: Illustrator
-          logo: Illustrator.png
           url: https://www.adobe.com/cn/products/illustrator.html
+          logo: Illustrator.png
           description: Adobe矢量图形设计软件，logo与插画必备
+        - title: Sketch
+          url: https://www.sketch.com/
+          logo: Sketch.png
+          description: macOS平台UI设计工具，矢量编辑与原型设计
+        - title: Canva
+          url: https://www.canva.cn/
+          logo: canva.png
+          description: 在线平面设计平台，模板丰富零基础快速出图
         - title: Blender
-          logo: blender.png
           url: https://www.blender.org/
+          logo: blender.png
           description: 免费开源3D创作套件，建模渲染动画全流程
     - term: 图标资源
       links:
         - title: Iconfont
-          logo: iconfont.png
           url: https://www.iconfont.cn/
+          logo: iconfont.png
           description: 阿里妈妈矢量图标库，海量免费图标资源
         - title: Flaticon
-          logo: flaticon.png
           url: https://www.flaticon.com/
+          logo: flaticon.png
           description: 全球最大免费图标数据库，支持SVG/PNG下载
         - title: Font Awesome
-          logo: fontawesomeicon.png
           url: https://fontawesome.com/
+          logo: fontawesomeicon.png
           description: 最流行的网页图标字体库，前端开发标配
+        - title: SVGRepo
+          url: https://www.svgrepo.com/
+          logo: svgrepo.png
+          description: 免费SVG矢量图库，50万+可商用图标与插画
+        - title: Phosphor Icons
+          url: https://phosphoricons.com/
+          logo: phosphor.png
+          description: 灵活多变的开源图标库，6种风格灵活搭配
         - title: Easyicon
-          logo: easyicon.png
           url: https://www.easyicon.net/
+          logo: easyicon.png
           description: 免费图标搜索引擎，海量PNG/ICO/SVG图标
     - term: 图片素材
       links:
         - title: Unsplash
-          logo: unsplash.png
           url: https://unsplash.com/
+          logo: unsplash.png
           description: 高质量免费摄影图片，可商用无需署名
         - title: Pexels
-          logo: pexels.png
           url: https://www.pexels.com/
+          logo: pexels.png
           description: 免费素材图片与视频，支持中文搜索
         - title: Pixabay
-          logo: pixabay.png
           url: https://pixabay.com/
+          logo: pixabay.png
           description: 超过百万张免费图片与视频素材，无版权限制
         - title: Freepik
-          logo: freepik.png
           url: https://www.freepik.com/
+          logo: freepik.png
           description: 免费矢量图、PSD与图片素材资源库
+        - title: Remove.bg
+          url: https://www.remove.bg/
+          logo: removebg.png
+          description: AI在线抠图工具，一键去除图片背景
+        - title: Cleanup.pictures
+          url: https://cleanup.pictures/
+          logo: cleanup.png
+          description: AI修图工具，涂抹即可去除照片中的不需要物体
     - term: 色彩灵感
       links:
         - title: Dribbble
-          logo: dribbble.png
           url: https://dribbble.com/
+          logo: dribbble.png
           description: 全球设计师作品展示社区，UI与插画灵感源泉
         - title: Behance
-          logo: behance.png
           url: https://www.behance.net/
+          logo: behance.png
           description: Adobe旗下创意作品展示平台，顶级设计案例
         - title: Coolors
-          logo: coolors.png
           url: https://coolors.co/
+          logo: coolors.png
           description: 超快配色方案生成器，一键锁定和谐色彩
         - title: ColorHunt
-          logo: colorhunt.png
           url: https://colorhunt.co/
+          logo: colorhunt.png
           description: 精选配色方案库，每日更新时尚色彩组合
+        - title: Realtime Colors
+          url: https://www.realtimecolors.com/
+          logo: realtimecolors.png
+          description: 实时预览配色方案，可视化字体与色彩搭配效果
+    - term: 字体资源
+      links:
+        - title: Google Fonts
+          url: https://fonts.google.com/
+          logo: googlefont.png
+          description: 谷歌开源字体库，1000+免费Web字体可商用
+        - title: 字体天下
+          url: https://www.fonts.net.cn/
+          logo: fontstianxia.png
+          description: 中文字体下载站，免费商用字体合集
+        - title: 识字体网
+          url: https://www.likefont.com/
+          logo: likefont.png
+          description: 在线字体识别工具，上传图片自动匹配字体名称
+        - title: DaFont
+          url: https://www.dafont.com/
+          logo: dafont.png
+          description: 免费字体下载站，海量创意英文字体资源
 
-# ====== 8. 实用工具 ======
+# ====== 9. 实用工具 ======
 - taxonomy: 实用工具
   icon: fas fa-tools
-  links:
-    - title: TinyPNG
-      logo: tinypng.png
-      url: https://tinypng.com/
-      description: 智能PNG/JPEG图片压缩，大幅减小文件体积
-    - title: 草料二维码
-      logo: qrcode.jpg
-      url: https://cli.im/
-      description: 二维码在线生成器，支持文本网址名片等格式
-    - title: 少数派
-      logo: sspai.png
-      url: https://sspai.com/
-      description: 数字生活指南，高效工作与品质工具推荐
-    - title: Greasy Fork
-      logo: greasyfork.png
-      url: https://greasyfork.org/
-      description: 用户脚本托管平台，浏览器增强脚本搜索安装
-    - title: 扩展迷
-      logo: crx4chrome.png
-      url: https://www.extfans.com/
-      description: Chrome浏览器扩展下载，在线离线安装CRX插件
+  list:
+    - term: 图片处理
+      links:
+        - title: TinyPNG
+          url: https://tinypng.com/
+          logo: tinypng.png
+          description: 智能PNG/JPEG图片压缩，大幅减小文件体积
+        - title: Remove.bg
+          url: https://www.remove.bg/
+          logo: removebg.png
+          description: AI在线抠图，5秒去除人物/物品背景
+        - title: ezgif
+          url: https://ezgif.com/
+          logo: ezgif.png
+          description: 免费在线GIF编辑工具，裁剪、优化、合成动图
+        - title: 稿定设计
+          url: https://www.gaoding.com/
+          logo: gaoding.png
+          description: 在线快速设计平台，抠图、海报、PPT模板丰富
+    - term: 格式转换
+      links:
+        - title: Convertio
+          url: https://convertio.co/
+          logo: convertio.png
+          description: 在线文件格式转换，支持300+格式文档音视频图片
+        - title: CloudConvert
+          url: https://cloudconvert.com/
+          logo: cloudconvert.svg
+          description: 云文件转换服务，高质量批量转换PDF/办公文档
+        - title: IlovePDF
+          url: https://www.ilovepdf.com/
+          logo: ilovepdf.png
+          description: PDF一站式在线工具，合并拆分压缩转换全搞定
+        - title: SmallPDF
+          url: https://smallpdf.com/
+          logo: smallpdf.png
+          description: PDF在线处理工具集，电子签名压缩转换编辑
+    - term: 开发者工具
+      links:
+        - title: JSON.cn
+          url: https://www.json.cn/
+          logo: jsoncn.png
+          description: 在线JSON格式化校验工具，中文界面简洁直观
+        - title: regex101
+          url: https://regex101.com/
+          logo: regex101.png
+          description: 正则表达式在线调试工具，实时解释匹配规则
+        - title: Carbon
+          url: https://carbon.now.sh/
+          logo: carbon.png
+          description: 代码截图美化工具，创建优美代码片段图片分享
+        - title: Excalidraw
+          url: https://excalidraw.com/
+          logo: excalidraw.png
+          description: 手绘风格在线白板，流程图草图与协作绘图
+        - title: draw.io
+          url: https://app.diagrams.net/
+          logo: drawio.png
+          description: 免费在线图表编辑器，流程图UML网络图架构图
+        - title: IT-Tools
+          url: https://it-tools.tech/
+          logo: ittools.png
+          description: 开发者在线工具箱，加密编解码时间戳UUID生成
+    - term: 其它工具
+      links:
+        - title: 草料二维码
+          url: https://cli.im/
+          logo: qrcode.jpg
+          description: 二维码在线生成器，支持文本网址名片等格式
+        - title: Greasy Fork
+          url: https://greasyfork.org/
+          logo: greasyfork.png
+          description: 用户脚本托管平台，浏览器增强脚本搜索安装
+        - title: 扩展迷
+          url: https://www.extfans.com/
+          logo: crx4chrome.png
+          description: Chrome浏览器扩展下载，在线离线安装CRX插件
+        - title: 少数派
+          url: https://sspai.com/
+          logo: sspai.png
+          description: 数字生活指南，高效工作与品质工具推荐
 
-# ====== 9. 网盘存储 ======
+# ====== 10. 网盘存储 ======
 - taxonomy: 网盘存储
   icon: fas fa-database
   links:
     - title: 百度网盘
-      logo: 百度网盘.jpg
       url: http://pan.baidu.com/
+      logo: 百度网盘.jpg
       description: 国内用户量最大的个人云存储服务
     - title: 阿里云盘
-      logo: 阿里云盘.png
       url: https://www.aliyundrive.com/
+      logo: 阿里云盘.png
       description: 阿里系云盘，上传下载不限速
+    - title: 夸克网盘
+      url: https://pan.quark.cn/
+      logo: quark.png
+      description: 夸克浏览器内置网盘，免费空间与在线视频播放
+    - title: 123云盘
+      url: https://www.123pan.com/
+      logo: 123pan.png
+      description: 免费大容量云盘，上传下载速度稳定
     - title: 天翼云盘
-      logo: 天翼云盘.jpg
       url: https://cloud.189.cn/
+      logo: 天翼云盘.jpg
       description: 中国电信旗下云存储，家庭资源共享
     - title: 坚果云
-      logo: 坚果云.png
       url: https://www.jianguoyun.com/
+      logo: 坚果云.png
       description: 全平台文件同步盘，增量同步技术领先
+    - title: 蓝奏云
+      url: https://www.lanzou.com/
+      logo: lanzou.png
+      description: 小文件快速分享网盘，下载无需客户端
+    - title: OneDrive
+      url: https://onedrive.live.com/
+      logo: onedrive.png
+      description: 微软云存储，深度集成Windows与Office 365
+    - title: Google Drive
+      url: https://drive.google.com/
+      logo: googledrive.png
+      description: Google云硬盘，15GB免费空间与在线文档协作
+    - title: MEGA
+      url: https://mega.io/
+      logo: mega.png
+      description: 端到端加密云存储，20GB免费空间隐私安全
 
-# ====== 10. 办公学习 ======
+# ====== 11. 办公学习 ======
 - taxonomy: 办公学习
   icon: fas fa-graduation-cap
   list:
     - term: 翻译工具
       links:
         - title: DeepL
-          logo: deepl.png
           url: https://www.deepl.com/
+          logo: deepl.png
           description: AI驱动的专业翻译工具，学术翻译质量最高
         - title: 有道词典
-          logo: 有道词典.png
           url: https://www.youdao.com/
+          logo: 有道词典.png
           description: 免费多语种在线翻译，中英互译体验优秀
         - title: 谷歌翻译
-          logo: 谷歌翻译.jpg
           url: https://translate.google.cn/
+          logo: 谷歌翻译.jpg
           description: 支持100+种语言的免费翻译服务
+        - title: Immersive Translate
+          url: https://immersivetranslate.com/
+          logo: immersive.png
+          description: 沉浸式双语网页翻译扩展，支持多种翻译引擎
     - term: 笔记协作
       links:
         - title: Notion
-          logo: notion.png
           url: https://www.notion.so/
+          logo: notion.png
           description: 全能型笔记与知识管理工具，支持数据库视图
+        - title: Obsidian
+          url: https://obsidian.md/
+          logo: obsidian.png
+          description: 本地优先知识管理工具，双向链接图谱化笔记
         - title: 语雀
-          logo: 语雀.webp
           url: https://www.yuque.com/
+          logo: 语雀.webp
           description: 阿里系文档协作平台，适合技术团队知识沉淀
-        - title: ProcessOn
-          logo: ProcessOn.png
-          url: https://www.processon.com/
-          description: 免费在线作图工具，支持流程图思维导图UML
         - title: 飞书
-          logo: feishu.png
           url: https://www.feishu.cn/
+          logo: feishu.png
           description: 字节跳动企业协作平台，文档聊天会议一体化
+        - title: 腾讯文档
+          url: https://docs.qq.com/
+          logo: qqdocs.png
+          description: 腾讯在线文档协作，与微信QQ无缝衔接
+        - title: ProcessOn
+          url: https://www.processon.com/
+          logo: ProcessOn.png
+          description: 免费在线作图工具，支持流程图思维导图UML
     - term: 学习平台
       links:
         - title: MDN Web Docs
-          logo: mdn.png
           url: https://developer.mozilla.org/
+          logo: mdn.png
           description: Mozilla维护的Web开发权威文档，前端必读
         - title: LeetCode
-          logo: leetcode.png
           url: https://leetcode.cn/
+          logo: leetcode.png
           description: 全球最大的算法题库，程序员面试刷题必备
         - title: 菜鸟教程
-          logo: runoob.png
           url: https://www.runoob.com/
+          logo: runoob.png
           description: 编程技术入门教程网站，通俗易懂覆盖面广
         - title: Coursera
-          logo: coursera.png
           url: https://www.coursera.org/
+          logo: coursera.png
           description: 全球顶尖大学在线课程平台，证书受企业认可
+        - title: 中国大学MOOC
+          url: https://www.icourse163.org/
+          logo: icourse163.png
+          description: 高等教育出版社与网易联合，国内名校课程免费学
+        - title: edX
+          url: https://www.edx.org/
+          logo: edx.png
+          description: 哈佛与MIT联合创办，全球顶尖高校在线课程
+        - title: Khan Academy
+          url: https://www.khanacademy.org/
+          logo: khanacademy.png
+          description: 非盈利教育平台，从基础数学到大学课程完全免费
 
-# ====== 11. 资讯阅读 ======
+# ====== 12. 资讯阅读 ======
 - taxonomy: 资讯阅读
   icon: fas fa-newspaper
   list:
-    - term: 技术博客
+    - term: 技术资讯
       links:
         - title: 阮一峰的网络日志
-          logo: 阮一峰.png
           url: https://www.ruanyifeng.com/
+          logo: 阮一峰.png
           description: 国内最知名的个人技术博客，科技周刊每周五更新
         - title: 酷壳 – CoolShell
-          logo: cools.png
           url: https://www.coolshell.cn/
+          logo: cools.png
           description: 陈皓的技术博客，深刻的技术洞察与工程经验
         - title: Hacker News
-          logo: hacker-news.jpg
           url: https://news.ycombinator.com/
+          logo: hacker-news.jpg
           description: Y Combinator旗下的科技与创业社交新闻站点
+        - title: 36氪
+          url: https://36kr.com/
+          logo: 36kr.png
+          description: 科技财经资讯平台，关注互联网创业与商业趋势
+        - title: 虎嗅
+          url: https://www.huxiu.com/
+          logo: huxiu.png
+          description: 科技商业评论媒体，深度企业分析与行业洞察
+        - title: IT之家
+          url: https://www.ithome.com/
+          logo: ithome.png
+          description: 前沿科技资讯站，实时数码产品与软件动态
+        - title: 品玩
+          url: https://www.pingwest.com/
+          logo: pingwest.png
+          description: 科技生活媒体，连接中国与世界科技资讯
+        - title: 少数派
+          url: https://sspai.com/
+          logo: sspai.png
+          description: 数字生活效率指南，精品应用推荐与教程
         - title: Medium
-          logo: medium.png
           url: https://medium.com/
+          logo: medium.png
           description: 全球性写作与阅读平台，高质量技术文章丰富
-        - title: 知乎
-          logo: 知乎.png
-          url: https://www.zhihu.com/
-          description: 中文互联网最大的知识问答社区
+        - title: Product Hunt
+          url: https://www.producthunt.com/
+          logo: producthunt.png
+          description: 每日最佳新产品推荐，科技产品风向标
     - term: 书籍阅读
       links:
         - title: 微信读书
-          logo: 微信读书.jpg
           url: https://weread.qq.com/
+          logo: 微信读书.jpg
           description: 腾讯出品电子书阅读平台，海量正版书籍免费阅读
         - title: 书栈网
-          logo: 书栈网.jpg
           url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
           description: IT互联网开源编程书籍免费在线阅读与下载
         - title: 豆瓣
-          logo: douban.png
           url: https://www.douban.com/
+          logo: douban.png
           description: 书籍影音评分社区，发现好书好电影
+        - title: Z-Library
+          url: https://z-lib.io/
+          logo: zlibrary.png
+          description: 全球最大的电子书资源库，学术与课外读物丰富
+        - title: 鸠摩搜书
+          url: https://www.jiumodiary.com/
+          logo: jiumo.png
+          description: 电子书搜索引擎，聚合多个网盘与文档平台资源
 
-# ====== 12. 休闲娱乐 ======
+# ====== 13. 休闲娱乐 ======
 - taxonomy: 休闲娱乐
   icon: fas fa-gamepad
   list:
     - term: 影音视频
       links:
         - title: 哔哩哔哩
-          logo: 哔哩哔哩.png
           url: https://www.bilibili.com/
+          logo: 哔哩哔哩.png
           description: 国内最大的弹幕视频网站，学习娱乐两不误
         - title: YouTube
-          logo: youtube.png
           url: https://www.youtube.com/
+          logo: youtube.png
           description: 全球最大视频分享平台，海量优质内容
+        - title: Netflix
+          url: https://www.netflix.com/
+          logo: netflix.png
+          description: 全球流媒体影视平台，原创剧集与电影品质标杆
         - title: 爱奇艺
-          logo: 爱奇艺.png
           url: https://www.iqiyi.com/
+          logo: 爱奇艺.png
           description: 爱奇艺在线视频平台，热门影视综艺
         - title: 腾讯视频
-          logo: 腾讯视频.png
           url: http://v.qq.com/
+          logo: 腾讯视频.png
           description: 腾讯旗下视频平台，海量正版影视内容
         - title: 优酷
-          logo: 优酷.png
           url: http://www.youku.com/
+          logo: 优酷.png
           description: 阿里旗下视频平台，经典影视资源丰富
+        - title: 芒果TV
+          url: https://www.mgtv.com/
+          logo: mangotv.png
+          description: 湖南卫视旗下视频平台，综艺节目标杆
     - term: 音乐
       links:
         - title: 网易云音乐
-          logo: 网易云音乐.jpg
           url: https://music.163.com/
+          logo: 网易云音乐.jpg
           description: 音乐发现与社交平台，评论区氛围独特
         - title: QQ音乐
-          logo: QQ音乐.jpg
           url: https://y.qq.com/
+          logo: QQ音乐.jpg
           description: 腾讯旗下音乐平台，版权曲库最全
         - title: Spotify
-          logo: spotify.png
           url: https://www.spotify.com/
+          logo: spotify.png
           description: 全球最大的流媒体音乐服务，推荐算法精准
+        - title: Apple Music
+          url: https://music.apple.com/
+          logo: applemusic.png
+          description: Apple音乐流媒体，无损音质与空间音频体验
     - term: 游戏
       links:
         - title: Steam
-          logo: steam.png
           url: https://store.steampowered.com/
+          logo: steam.png
           description: 全球最大的PC游戏数字发行平台
         - title: Epic Games
-          logo: epic.png
           url: https://www.epicgames.com/
+          logo: epic.png
           description: 虚幻引擎开发商，每周免费游戏领取
+        - title: itch.io
+          url: https://itch.io/
+          logo: itch.png
+          description: 独立游戏平台，海量创意独立游戏免费下载
+        - title: GOG
+          url: https://www.gog.com/
+          logo: gog.png
+          description: CD Projekt旗下无DRM游戏平台，经典老游戏重制
